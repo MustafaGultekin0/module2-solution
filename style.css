@@ -1,0 +1,41 @@
+p{
+	border-style: solid;
+	border-width: 1px;
+	background-color: gray;
+	position: relative;
+
+}
+#p1{
+	position: relative;
+	left: 0px;
+
+}
+#p2{
+	position: relative;
+	left: 35%;
+	top: 0px;
+}
+
+#p3{
+	position: relative;
+	left: 70%;
+	top: 0px;
+}
+
+@media (min-width: 992px){
+	p{
+		width: 33.99%;
+	}
+}
+
+@media (min-width: 768px max-width: 991px){
+	p{
+		width: 50%;
+	}
+}
+
+@media (max-width: 767px){
+	p{
+		width: 100%;
+	}
+}
